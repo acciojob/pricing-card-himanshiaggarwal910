@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+ .card {
+            width: 300px;
+            padding: 20px;
+            background-color: #f2f2f2;
+            box-shadow: 0px 2px 9px 0 rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* Image styling */
+        .card img {
+            width: 100%;
+        }
+
+        /* Button styling */
+        .buy-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+		}
+
+.buy-button:hover{
+	background-color:darkgreen;
+	font-size: 150%;
+/* 	color:black; */
+}
+
